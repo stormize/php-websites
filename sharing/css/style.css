@@ -1,0 +1,201 @@
+
+@font-face{
+    font-family: Droidsans;
+    src: url(../fonts/droid-sans/DroidSans.ttf);
+}
+
+@font-face{
+    font-family: lobster;
+    src: url(../fonts/lobster/Lobster.otf);
+}
+
+@font-face{
+    font-family: Montserrat;
+    src: url(../fonts/montserrat/Montserrat.ttf);
+}
+
+
+/* Navbar */
+
+.navbar{
+    border-radius: 0px;
+    margin-bottom: 0;
+}
+
+.navbar > .container .navbar-brand{
+    margin-left: 30PX;
+    color: #f0f8ff;
+    font-size: 20px
+}
+
+.navbar .navbar-nav li:hover
+{
+    background-color: deepskyblue;
+    color: black;
+}
+.navbar-inverse .navbar-nav > li > a{
+    color: #FFF;
+    font-size: 18px;
+    font-family: 'Droidsans', sans-serif;
+}
+
+/* Show Images */
+
+.show-images{
+    margin-top: 5px;
+    background: url("../img/image-bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+.bj-image{
+    height: auto;
+    background: rgba(2,2,2,0.6);
+    padding: 20px 0;
+    overflow: hidden
+}
+
+.bj-image .dis-img{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.bj-image .dis-img h3{
+color: white;
+    border: 2px solid white;
+    padding: 5px;
+    background-color: #00b1b7;
+    border-radius: 10px;
+}
+.bj-image .dis-img img{
+height: 300px;
+}
+
+/* Footer */
+
+.well{
+    background-color: #000;
+}
+
+footer .copy p{
+        color: #fff;
+    font-size: 20px;
+}
+
+footer .copy p span{
+    color: aqua
+}
+
+
+/* Error box in Registration */
+
+.error{
+    width: 30%;
+    margin: 50px auto;
+    padding: 20px;
+    font-size: 20px;
+    border: 2px solid #4e1515;
+    border-radius: 10px;
+}
+.error h3{
+      background-color: #f5f5f5;
+    width: 95%;
+    padding: 10px;
+    border-radius: 5px 10px 0 0;
+    color: #3777f1;
+    text-align: center;
+    font-size: 25px;
+}
+.error p{
+  font-size: 18px;
+padding: 10px;
+color: #FF0E0E;
+}
+
+
+.content{
+    width: 90%;
+    margin: 20px auto;
+    border: 4px solid #2677bd;
+    border-radius: 10px;
+}
+
+.my_friends h3{
+    color: blue;
+    text-align: center;
+}
+
+.form{
+    width: 70%;
+    margin: 20px auto;
+    padding: 10px;
+
+}
+
+.form label{
+    color: #0c8883;
+    font-size: 20px;
+}
+
+.form input[type="submit"]{
+    margin: 10px auto;
+    width: 200px;
+    padding: 10px;
+}
+
+.get{
+    border: 3px solid #079292;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.get a{
+        font-size: 18px;
+    margin: 5px 10px;
+}
+
+.user_page{
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+    border: 3px solid #aaa;
+    border-radius: 10px;
+}
+
+.user_page .span{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.user_page h3{
+    margin-top: 20px auto
+}
+
+.insert{
+    margin: 20px auto;
+    width: 50%;
+    border: 3px solid #337ab7;
+}
+
+.insert input[type="submit"]{
+    margin: 10px auto;
+    width: 200px;
+    padding: 10px;
+    font-size: 20px
+}
+
+.insert input[type="file"]{
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.pic_img{
+        width: 80%;
+    margin: 20px auto;
+    border: 3px solid black;
+    padding: 20px;
+}
+
+.pic_img img{
+    width: 100%
+}

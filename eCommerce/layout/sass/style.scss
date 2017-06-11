@@ -1,0 +1,213 @@
+/* *********************
+		MAIN STYLE
+********************* */
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body{
+	direction: ltr;
+	font-family: 'Open Sans', sans-serif;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+	position: relative;
+	padding: 0px 20px;
+}
+.float-right{float: right;}
+.float-left{float: left;}
+
+h1,h2,h3,h4,h5,h6,p{
+	font-family: 'Open Sans', sans-serif;
+}
+a{
+	text-decoration: none;
+	color: #2e2e2e;
+	outline: inherit;
+	transition: all 0.5s ease-in-out;
+	&:hover, &:focus{
+		text-decoration: none;
+	}
+}
+li{
+	display: inline-block;
+}
+
+
+/* *********************
+	 MODAL SECTION
+********************* */
+.ui.modal{
+	.content{
+		form{
+			input[type='text'], input[type='password']{
+				width:100%;
+				border: 2px solid #bfbfbf;
+				border-radius: 3px;
+				padding: 20px 10px;
+				margin: 10px 0px;
+				height: 30px;
+				outline-color: transparent;
+				-webkit-transition: width 0.4s ease-in-out;
+				transition: width 0.4s ease-in-out;
+				&:focus{
+					border-color: #4347d2;
+				}
+			}
+		}
+		button{
+			background: #4267b2;
+			color:#fff;
+			border: 0px;
+			padding: 5px 10px;
+			margin: 20px 240px;
+			border-radius: 3px;
+			i{
+				padding: 0px 10px;
+			}
+			&:hover, &:focus{
+				background: #285bc5;
+			}
+		}
+	}
+}
+
+
+
+
+/* *********************
+	NAVBAR SECTION
+********************* */
+#navbar{
+	font-size: 13px;
+	width: 100%;
+	background-color: #2e2e2e;
+	#top-nav{
+		color: #bfbfbf;
+		padding: 5px 0px;
+		min-height: 45px;
+		#top-nav-left{
+			width: 50%;
+			ul {
+				margin-top: 5px;
+				display: block;
+				li{
+					a{
+						color: #bfbfbf;
+						&:hover, &:focus{
+							color: #4347d2;
+						}
+						&:after{
+							content: '|';
+							margin: 0px 10px;
+						}
+						span{
+							color: #848282;
+						}
+					}
+				}
+			}
+		}
+		#top-nav-right{
+			width: 50%;
+			padding-left: 260px;
+			ul {
+				margin-top: 5px;
+				display: block;
+				li{
+					a{
+						color: #bfbfbf;
+						&:hover, &:focus{
+							color: #4347d2;
+						}
+						&:after{
+							content: '|';
+							margin: 0px 10px;
+						}
+					}
+					select{
+						color: #bfbfbf;
+						background-color: transparent;
+						border: 0px;
+						outline-color: transparent;
+						option{
+							background-color: #222;
+							color: #fbfbfb;
+						}
+					}
+				}
+			}
+		}
+	}
+	#bottom-nav{
+		min-height: 100px;
+		background-color: #fff;
+		border-bottom: 1px solid #bfbfbf;
+		box-shadow: 0px 5px 10px #bfbfbf;
+		#logo{
+			width: 30%;
+			img{
+				height: 100px;
+				width: 180px;
+			}
+		}
+		#nav-content{
+			width:70%;
+			#search-input, #nav-regester, #nav-card, #categ-menu{
+				margin: 0px 10px;
+			}
+			#nav-regester{
+				width: 20%;
+				padding: 35px 0px 0px 10px;;
+				ul{
+					li{
+						a{
+							color: #2e2e2e;
+							font-size: 14px;
+							margin: 0px 5px;
+							&:hover, &:focus{
+								color: #4347d2;
+							}
+						}
+					}
+				}
+			}
+			#search-input{
+				width: 50%;
+				padding: 30px 0px;
+				input[type=text] {
+					width: 400px;
+					border: 2px solid #bfbfbf;
+					border-radius: 3px;
+					padding: 0px 10px;
+					height: 35px;
+					outline-color: transparent;
+					-webkit-transition: width 0.4s ease-in-out;
+					transition: width 0.4s ease-in-out;
+				}
+
+				/* When the input field gets focus, change its width to 100% */
+				input[type=text]:focus {
+					border-color: #4347d2;
+				}
+			}
+			#nav-card{
+				padding: 32px 0px;
+				width: 10%;
+				text-align:center;
+				a{
+					i{
+						&:hover{
+						color: #4347d2;
+						}
+					}
+				}
+			}
+			#categ-menu{
+				padding: 35px 0px;
+			}
+		}
+	}
+}
